@@ -1,16 +1,18 @@
 package org.howard.edu.hw5;
 
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 import org.howard.edu.hw4.IntegerSet.EmptyArrayListException;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
 
 public class IntegerSetTest {
 	IntegerSet set1 = new IntegerSet();
 	IntegerSet set2 = new IntegerSet();
 	IntegerSet set3 = new IntegerSet();
+	
 	@Test
 	@DisplayName("Test case for add")
 	public void testAdd() {
