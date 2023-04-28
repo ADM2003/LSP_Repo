@@ -1,5 +1,5 @@
 package howard.edu.lsp.finals.problem;
-import org.junit.jupiter.api.DisplayName;
+import java.util.Set;
 
 public class SongsDatabaseTest{
 	SongsDatabase db = new SongsDatabase();
@@ -12,6 +12,7 @@ public class SongsDatabaseTest{
 	
 	public void testGetSongs() {
 		Set<String> genreSongs = db.getSongs("Rap");
+		System.out.println(genreSongs);
 	}
 	
 	public void testGetGenreOfSong() {
